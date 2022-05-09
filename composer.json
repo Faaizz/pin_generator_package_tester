@@ -48,7 +48,13 @@
     },
     "extra": {
         "laravel": {
-            "dont-discover": []
+            "dont-discover": [],
+            "providers": [
+                "Faaizz\\PinGenerator\\PinGeneratorServiceProvider"
+            ],
+            "aliases": {
+                "Generator": "Faaizz\\PinGenerator\\Facades\\Generator"
+            }
         }
     },
     "config": {
