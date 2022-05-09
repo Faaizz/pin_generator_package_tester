@@ -1,5 +1,6 @@
 <?php
 
+use Faaizz\PinGenerator\Facades\Generator;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,5 +15,6 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    $pin = Generator::getPin();
+    return view('welcome', ['pin' => $pin]);
 });
