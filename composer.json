@@ -1,7 +1,7 @@
 {
     "name": "faaizz/pin_generator_package_tester",
     "type": "project",
-    "description": ""Companion Laravel Application to test Laravel PIN Generator Package.,
+    "description": "Companion Laravel Application to test Laravel PIN Generator Package.",
     "keywords": ["framework", "laravel"],
     "license": "MIT",
     "require": {
