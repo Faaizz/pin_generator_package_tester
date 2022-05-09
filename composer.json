@@ -6,6 +6,7 @@
     "license": "MIT",
     "require": {
         "php": "^8.0.2",
+        "faaizz/pin_generator": "dev-main",
         "guzzlehttp/guzzle": "^7.2",
         "laravel/framework": "^9.11",
         "laravel/sanctum": "^2.14.1",
@@ -66,8 +67,8 @@
     "prefer-stable": true,
     "repositories": [
         {
-          "type": "path",
-          "url": "../pin_package"
+          "type": "vcs",
+          "url": "https://github.com/Faaizz/pin_generator_package"
         }
     ]
 }

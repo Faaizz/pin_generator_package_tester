@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8fd5f90a2619a6ded10c8ffd4d926395",
+    "content-hash": "a8c5ed9f4b7177e6335d13a3809191e1",
     "packages": [
         {
             "name": "brick/math",
@@ -436,6 +436,52 @@
                 }
             ],
             "time": "2021-10-11T09:18:27+00:00"
+        },
+        {
+            "name": "faaizz/pin_generator",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Faaizz/pin_generator_package.git",
+                "reference": "8bdfa96d9b55b7908369d143203a1594a8748736"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Faaizz/pin_generator_package/zipball/8bdfa96d9b55b7908369d143203a1594a8748736",
+                "reference": "8bdfa96d9b55b7908369d143203a1594a8748736",
+                "shasum": ""
+            },
+            "require-dev": {
+                "orchestra/testbench": "^6.0",
+                "phpunit/phpunit": "^9.5"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Faaizz\\PinGenerator\\": "src"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "Faaizz\\PinGenerator\\Tests\\": "tests"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Faizudeen Kajogbola",
+                    "email": "fr33ziey@gmail.com"
+                }
+            ],
+            "description": "A Laravel package to generate and emit PINs (personal identification numbers), suitable for use with cash cards, door locks, etc.",
+            "support": {
+                "source": "https://github.com/Faaizz/pin_generator_package/tree/main",
+                "issues": "https://github.com/Faaizz/pin_generator_package/issues"
+            },
+            "time": "2022-05-09T22:12:54+00:00"
         },
         {
             "name": "fruitcake/php-cors",
@@ -7733,7 +7779,9 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "faaizz/pin_generator": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
