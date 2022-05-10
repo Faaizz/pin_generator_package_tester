@@ -15,6 +15,6 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    $pin = Generator::getPin();
+    $pin = Generator::generatePin();
     return view('welcome', ['pin' => $pin]);
 });
